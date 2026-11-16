@@ -1,0 +1,26 @@
+# Data and large artifacts
+data/
+artifacts/
+*.tif
+*.tiff
+*.npy
+*.npz
+*.pt
+*.pth
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+
+# Notebook and OS
+.ipynb_checkpoints/
+.DS_Store
+
+# Keep only small, reviewed result files for version control
+!artifacts/**/metrics.json
+!artifacts/**/results.csv
